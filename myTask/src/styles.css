@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #1E3A8A;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FACC15;
+  }
+  
+  .login-btn, .signup-btn {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .login-btn {
+    background-color: #FACC15;
+    color: black;
+  }
+  
+  .signup-btn {
+    background-color: #EA580C;
+    color: white;
+  }
+  
+  .hero-section {
+    background-color: #DBEAFE;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .hero-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1E40AF;
+  }
+  
+  .hero-text {
+    margin-top: 20px;
+    color: #374151;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .button-group {
+    margin-top: 30px;
+  }
+  
+  .learn-more-btn, .start-earning-btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+  
+  .learn-more-btn {
+    background-color: #E5E7EB;
+    color: black;
+  }
+  
+  .start-earning-btn {
+    background-color: #10B981;
+    color: white;
+  }
+  
+  .how-it-works {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #111827;
+  }
+  
+  .steps-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+  }
+  
+  .step {
+    max-width: 200px;
+    text-align: center;
+  }
+  
+  .step-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .step h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #111827;
+  }
+  
+  .step p {
+    font-size: 14px;
+    color: #4B5563;
+  }
+  footer{
+    background-color: #1E3A8A;
+    color: white;
+    padding: 5px;
+    text-align: center;
+  }
+
+  /*form css*/
+
+ .form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 300px;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: none;
+    font-size: 40px;
+    cursor: pointer;
+    color: red;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button-group {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    background: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="reset"] {
+    background: #dc3545;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+  .container{
+    margin: 5rem;
+  }
+  .form-wrapper
+  {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #eff1f4ab;
+  }
+  .form-container
+  {
+    position: fixed;
+    top: 30%;
+    left: 40%;
+  }
